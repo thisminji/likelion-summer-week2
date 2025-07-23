@@ -1,6 +1,6 @@
 // src/pages/PostDetailPage.jsx
 //response에 태그 관련 정보는 없어서 그 부분은 제외하고 구현했습니다. 
-// src/pages/PostDetailPage.jsx
+
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";

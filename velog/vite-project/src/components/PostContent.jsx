@@ -18,7 +18,7 @@ export default function PostContent({ post }) {
 const Wrapper = styled.section`
   max-width: 800px;
   margin: 0 auto 40px;
-  padding: 0 16px;
+  padding: 0;
   box-sizing: border-box;
 `;
 

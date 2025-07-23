@@ -54,8 +54,8 @@ const CardGrid = styled.div`
   grid-auto-rows: 1fr;   /* 모든 그리드 행 높이를 동일하게 */
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 24px;
-  margin: 0 auto;
-  padding: 32px 24px 0;
+  width: 100%;
+  padding-top: 32px;
   box-sizing: border-box;
 
   @media (min-width: 1200px) {

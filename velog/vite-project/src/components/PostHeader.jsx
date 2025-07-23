@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default function PostHeader({
   post,
   isFollowing = false,
-  onToggleFollow = () => {},
+  onToggleFollow = () => { },
 }) {
   if (!post) return null;
 
@@ -32,7 +32,8 @@ export default function PostHeader({
 const Wrapper = styled.header`
   max-width: 800px;
   margin: 0 auto;
-  padding: 32px 16px 24px;
+  padding-top: 32px;
+  padding-bottom: 24px;
   box-sizing: border-box;
 `;
 
